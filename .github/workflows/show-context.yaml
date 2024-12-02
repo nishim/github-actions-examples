@@ -5,6 +5,8 @@ on:
 
 jobs:
   show-context:
+    runs-on: ubuntu-24.04
+
     steps:
       - name: Dump GitHub context
         env:
