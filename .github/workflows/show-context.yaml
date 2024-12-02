@@ -4,8 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  skip:
-
+  show-context:
     steps:
       - name: Dump GitHub context
         env:
